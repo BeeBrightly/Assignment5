@@ -1,0 +1,62 @@
+body { 
+	background: url(https://i.pinimg.com/originals/07/3a/b4/073ab425475754877dd9946ec11b1200.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    
+}
+
+h1,
+h2,
+h3 {
+	
+	color:rgba(218, 22, 185, 0.938);
+	padding: 25px;
+    text-shadow: 2px 2px:blue;
+    
+}
+
+.jumbotron {
+    background-color: rgba(159, 215, 233, 0.459)
+}
+
+.answer,
+#timer {
+    font-weight: 900;
+    font-family: 'Creepster', cursive;
+    color: chartreuse
+}
+
+#start {
+    color: rgb(189, 50, 159);
+    font-family: 'Creepster', cursive;
+    
+
+}
+
+.choices {
+	text-align: center;
+	border: groove 2px rgb(235, 245, 99);
+	border-radius: 5%;
+    margin: 0 35%;
+    font-family: 'Sancreek', cursive;
+}
+
+.choices:hover {
+	background-color: rgba(231, 146, 175, 0.897);
+    color: rgb(192, 230, 240);
+    font-family: 'Sancreek', cursive;
+}
+
+#gameScreen {
+	-webkit-box-shadow: 7px 5px 47px 0px rgba(247, 68, 68, 0.76);
+	-moz-box-shadow: 7px 5px 47px 0px rgba(255, 230, 0, 0.829);
+	box-shadow: 7px 5px 47px 0px rgba(0, 255, 42, 0.76);
+}
+
+.shadow {
+	-webkit-box-shadow: -7px 6px 5px -1px rgba(255, 0, 200, 0.452);
+	-moz-box-shadow: -7px 6px 5px -1px rgba(218, 32, 187, 0.562);
+	box-shadow: -7px 6px 5px -1px rgba(185, 85, 194, 0.548);
+}
